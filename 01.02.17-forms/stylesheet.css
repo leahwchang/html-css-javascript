@@ -3,23 +3,23 @@ body {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-attachment: fixed;
-	color: #ccc4ee;
 	font-family: 'Quicksand', sans-serif;
+	color: #ccc4ee;
 }
 
 .container {
+	width: 580px;
 	background-color: #00008e;
 	background-color: rgba(0,0,142, .5);
 	border: 3px solid transparent;
 	border-image: linear-gradient(to bottom left, #559dcc 40%, #826FCC 60%);
 	border-image-slice: 1;
-	width: 580px;
 	margin-left: 170px;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	text-align: center;
 }
 
 .flex-container {
@@ -31,10 +31,6 @@ body {
 	flex-direction: column;
 }
 
-.flex-item {
-
-}
-
 .logo {
 	font-family: 'Monoton', cursive;
 	font-size: 5em;
@@ -42,16 +38,12 @@ body {
 }
 
 .title {
-	color: #ffffff;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1em;
+	color: #ffffff;
 }
 
-.disclaimer {
-	font-size: 0.5em;
-}
-
-span {
+.disclaimer, span {
 	font-size: 0.5em;
 }
 
@@ -59,13 +51,13 @@ input[type=text] {
 	width: 40%;
 	background-color: #00008e;
 	background-color: rgba(0,0,142, .5);
-	color: #ccc4ee;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
 	border: none;
 	border: 2px solid transparent;
 	border-image: linear-gradient(to bottom left, #826FCC 40%, #559dcc 60%);
 	border-image-slice: 1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #ccc4ee;
 	text-align: center;
 }
 
@@ -74,24 +66,24 @@ textarea {
 	height: 70px;
 	background-color: #00008e;
 	background-color: rgba(0,0,142, .5);
-	color: #ccc4ee;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
 	border: none;
 	border: 2px solid transparent;
 	border-image: linear-gradient(to bottom left, #826FCC 40%, #559dcc 60%);
 	border-image-slice: 1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #ccc4ee;
 }
 
 input[type=submit] {
+	width: 90px;
+	height: 40px;
 	background-color: #00008e;
 	background-color: rgb(0,0,142);
 	border: 2px solid transparent;
 	border-image: linear-gradient(to bottom left, #826FCC 40%, #559dcc 60%);
 	border-image-slice: 1;
-	color: #ffffff;
 	font-family: 'Quicksand', sans-serif;
-	width: 90px;
-	height: 40px;
 	font-size: 1em;
+	color: #ffffff;
 }
