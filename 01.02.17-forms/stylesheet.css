@@ -1,0 +1,30 @@
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2014/10/25/19/20/lamp-502935_1280.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+	color: #f4dfff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.wrap {
+	background-color: #2c1b60;
+	background: rgba(44, 27, 96, .25);
+	height: 1200px;
+	width: 600px;
+	border-radius: 20px;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.title {
+	font-family: 'Monoton', cursive;
+	font-size: 5em;
+	color: #ffffff;
+}
+
+.textbox {
+	background-color: #2c1b60;
+	background: rgba(0, 0, 126, .25);	
+}
