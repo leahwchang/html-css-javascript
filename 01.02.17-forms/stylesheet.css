@@ -3,28 +3,88 @@ body {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-attachment: fixed;
-	color: #f4dfff;
+	color: #ccc4ee;
 	font-family: 'Quicksand', sans-serif;
 }
 
-.wrap {
-	background-color: #2c1b60;
-	background: rgba(44, 27, 96, .25);
-	height: 1200px;
-	width: 600px;
-	border-radius: 20px;
-	margin-left: 150px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+.container {
+	background-color: #00008e;
+	background-color: rgba(0,0,142, .5);
+	/*border: 3px solid #8875d7;*/
+	/*border: 3px solid linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;*/
+	border: 3px solid transparent;
+	border-image: linear-gradient(to bottom left, #559dcc 40%, #826FCC 60%);
+	border-image-slice: 1;
+	/*height: 1200px;*/
+	width: 580px;
+	margin-left: 170px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+/*
+.box{
+	  border: 20px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+	  -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+	  border-image: linear-gradient(to bottom right, #3acfd5 0%, #3a4ed5 100%);
+
+	  border-image-slice: 1;
+}*/
+
+
+.flex-container {
+/*	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;*/
+	width: 540px;
+	margin: 0 auto;
+	display: -web-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	/*border: 2px solid yellow;*/
 }
 
-.title {
+.flex-item {
+	/*border: 2px solid red;*/
+}
+
+.logo {
 	font-family: 'Monoton', cursive;
 	font-size: 5em;
 	color: #ffffff;
 }
 
-.textbox {
-	background-color: #2c1b60;
-	background: rgba(0, 0, 126, .25);	
+.title {
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+}
+
+.disclaimer {
+	font-size: 0.5em;
+}
+
+span {
+	font-size: 0.5em;
+}
+
+input[type=text] {
+	width: 40%;
+	background-color: #302067;
+	background: rgba(48, 32, 103, .25);
+	color: #f4dfff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+textarea {
+	width: 50%;
+	height: 70px;
+	background-color: #302067;
+	background: rgba(48, 32, 103, .25);
+	color: #f4dfff;
+	font-family: 'Quicksand', sans-serif;
 }
