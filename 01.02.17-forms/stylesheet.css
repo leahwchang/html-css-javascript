@@ -1,8 +1,9 @@
 body {
-	background-image: url("https://cdn.pixabay.com/photo/2014/10/25/19/20/lamp-502935_1280.jpg");
+	background-image: url("http://i347.photobucket.com/albums/p442/wleahc/lamp-502935_1920_zpsasjq7k1m.jpg");
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: right top;
 	background-attachment: fixed;
+	background-size: cover;
 	font-family: 'Quicksand', sans-serif;
 	color: #ccc4ee;
 }
