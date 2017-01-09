@@ -5,7 +5,9 @@
 01.02.17 - forms  
 01.03.17 - date picker (*styling)  
 01.04.17 - javascript input   
-01.05.17 - canvas       
+01.05.17 - canvas (*styling + more shapes)       
+01.06.17 - mondern mondrian   
+
 
 
 

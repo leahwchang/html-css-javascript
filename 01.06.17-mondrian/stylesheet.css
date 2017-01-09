@@ -1,14 +1,123 @@
 body, html {
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 	text-align: center;
 }
 
 #painting {
-	width: 500px;
 	height: 500px;
-	background-color: #FFF9D6;
+	width: 500px;
+	background-color: #fff9d6;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
-	box-shadow: 5px 5px 10px #D7DCD5;
+	box-shadow: 5px 5px 10px #d7dcd5;
+}
+
+#toprow {
+	height: 360px;
+}
+
+#topright {
+	height: 360px;
+	width: 360px;
+}
+
+#divider1 {
+	height: 360px;
+	width: 14px;
+}
+
+#topleft {
+	height: 360px;
+	width: 126px;
+}
+
+#divider2 {
+	height: 14px;
+	width: 126px;
+}
+
+#topleft1 {
+	height: 162px;
+	width: 126px;
+}
+
+#topleft2 {
+	height: 185px;
+	width: 126px;
+}
+
+#divider3 {
+	height: 14px;
+	width: 500px;
+}
+
+#bottomrow {
+	height: 126px;
+}
+
+#bottomright {
+	height: 126px;
+	width: 40px;
+}
+
+#bottomright1 {
+	height: 56px;
+	width: 40px;
+}
+
+#divider4 {
+	height: 14px;
+	width: 40px;
+}
+
+#bottomright2 {
+	height: 56px;
+	width: 40px;
+}
+
+#divider5 {
+	height: 126px;
+	width: 14px;
+}
+
+#bottomcenter {
+	height: 126px;
+	width: 306px;
+}
+
+#divider6 {
+	height: 126px;
+	width: 14px;
+}
+
+#bottomleft {
+	height: 126px;
+	width: 126px;
+}
+
+
+
+.red {
+	background-color: #eb5336;
+}
+
+.blue {
+	background-color: #4598c4;
+}
+
+.white {
+	background-color: #fcf9ea;
+}
+
+.yellow {
+	background-color: #f8da00;
+}
+
+.black {
+	background-color: #493f3a;
+}
+
+.right {
+	float: right;
 }
