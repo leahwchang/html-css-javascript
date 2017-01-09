@@ -3,8 +3,9 @@
 
 01.01.17 - css buttons  
 01.02.17 - forms  
-01.03.17 - date picker  
-01.04.17 - javascript input  
-01.05.17 - canvas  
+01.03.17 - date picker (*styling)  
+01.04.17 - javascript input   
+01.05.17 - canvas       
+
 
 
