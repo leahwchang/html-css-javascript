@@ -24,7 +24,7 @@ html body {
 /* title: headline & byline */
 
 .title {
-	height: 150px;
+	height: 140px;
 	width: 800px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -35,13 +35,15 @@ html body {
 	font-family: 'Wire One', sans-serif;
 	font-style: italic;
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: 900;
+	padding: 10px;
 }
 
 #byline {
 	font-family: 'Wire One', sans-serif;
 	font-style: italic;
 	font-size: 2em;
+	padding: 10px;
 }
 
 /* page: comic panels */
@@ -52,7 +54,7 @@ html body {
 	margin: 0 auto;
 	border: 1px solid blue;
 	overflow: auto;
-	padding-bottom: 150px;
+	padding-bottom: 100px; /* footer */
 }
 
 /*.div {
@@ -65,6 +67,7 @@ html body {
 	background-color: #D0D8FF;
 	border: 10px solid #514C62;
 	float: left;
+	overflow: hidden;
 }
 
 #panel2 {
@@ -73,6 +76,7 @@ html body {
 	background-color: #D0D8FF;
 	border: 10px solid #514C62;
 	float: left;
+	overflow: hidden;
 }
 
 #panel3 {
@@ -81,6 +85,7 @@ html body {
 	background-color: #D0D8FF;
 	border: 10px solid #514C62;
 	float: left;
+	overflow: hidden;
 }
 
 #panel4 {
@@ -89,6 +94,7 @@ html body {
 	background-color: #D0D8FF;
 	border: 10px solid #514C62;
 	float: left;
+	overflow: hidden;
 }
 
 #panel5 {
@@ -97,12 +103,14 @@ html body {
 	background-color: #D0D8FF;
 	border: 10px solid #514C62;
 	float: left;
+	overflow: hidden;
 }
 
 /* footer */
+
 #footer {
-	height: 150px;
+	height: 100px;
 	position: relative;
-	margin-top: -150px;
+	margin-top: -100px;
 	clear: both;
 }

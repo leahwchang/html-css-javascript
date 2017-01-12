@@ -9,6 +9,7 @@
 01.06.17 - mondern mondrian (responsive + change colors on click)   
 01.07.17 - popup game (add own graphics)  
 01.08.17 - comic time (add own graphics)  
+
   
 (*) things to change and work on
   
