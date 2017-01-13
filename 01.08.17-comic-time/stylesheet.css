@@ -17,7 +17,7 @@ html body {
 .wrap {
 	min-height: 100%;
 	/*height: 100%;*/
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ html body {
 	width: 800px;
 	margin: 0 auto;
 	margin-top: 50px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 #headline {
@@ -52,7 +52,7 @@ html body {
 	height: 100%;
 	width: 800px;
 	margin: 0 auto;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	overflow: auto;
 	padding-bottom: 100px; /* footer */
 }
@@ -68,6 +68,13 @@ html body {
 	border: 10px solid #514C62;
 	float: left;
 	overflow: hidden;
+	position: relative;
+}
+
+#image1 {
+	position: absolute;
+	width: 100%;
+	top: -50px;
 }
 
 #panel2 {
@@ -77,6 +84,12 @@ html body {
 	border: 10px solid #514C62;
 	float: left;
 	overflow: hidden;
+	position: relative;
+}
+
+#image3 {
+	position: absolute;
+	height: 100%;
 }
 
 #panel3 {
@@ -86,6 +99,12 @@ html body {
 	border: 10px solid #514C62;
 	float: left;
 	overflow: hidden;
+	position: relative;
+}
+
+#image2 {
+	position: absolute;
+	width: 100%;
 }
 
 #panel4 {
@@ -95,6 +114,13 @@ html body {
 	border: 10px solid #514C62;
 	float: left;
 	overflow: hidden;
+	position: relative;
+}
+
+#image5 {
+	position: absolute;
+	width: 120%;
+	top: -90px;
 }
 
 #panel5 {
@@ -104,6 +130,74 @@ html body {
 	border: 10px solid #514C62;
 	float: left;
 	overflow: hidden;
+	position: relative;
+}
+
+#image4 {
+	position: absolute;
+	height: 100%;
+	left: -30px;
+}
+
+/* texts */
+
+.narration {
+		font-family: 'Wire One', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    background-color: #2b2b2b;
+}
+
+.bigtext {
+		font-family: 'Wire One', sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 20px;
+    text-shadow:2px 2px #2b2b2b;
+}
+
+/* These classes can position text and images within the panel.*/
+
+.left {
+    position:absolute;
+    left: 0;
+}
+
+.right {
+    position:absolute;
+    right: 0;
+}
+
+.top {
+    position:absolute;
+    top: 0;
+}
+
+.bottom {
+    position:absolute;
+    bottom: 0;
+}
+
+
+/* stacking elements */
+
+.inback {
+    z-index: 1;
+}
+
+.inmiddle {
+    z-index: 2;
+}
+
+.infront{
+    z-index: 3;
 }
 
 /* footer */
