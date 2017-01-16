@@ -1,9 +1,18 @@
 $(document).ready(function() {
-	$("button").click(function() {
-		if ($("body").hasClass("black")) {
-			$("body").removeClass("black").addClass("white");
+	$("#orb").click(function() {
+		if ($(this).hasClass("sun")) {
+			$(this).removeClass("sun").addClass("moon");
 		} else {
-			$("body").removeClass("white").addClass("black");
+			$(this).removeClass("moon").addClass("sun");
+		}
+	});
+	$("#sky").click(function() {
+		if ($(this).hasClass("day")) {
+			$(this).removeClass("day").addClass("night");
+			$("#header").html("<h1>Good Night!</h1>");
+		} else {
+			$(this).removeClass("night").addClass("day");
+			$("#header").html("<h1>Good Morning!</h1>");
 		}
 	});
 });
