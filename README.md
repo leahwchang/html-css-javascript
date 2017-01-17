@@ -10,6 +10,7 @@
 01.07.17 - popup game (add own graphics)  
 01.08.17 - comic time (add own graphics + own stories)    
 01.09.17 - night and day    
+01.10.17 - music boxes   
 
   
 (*) things to change and work on
