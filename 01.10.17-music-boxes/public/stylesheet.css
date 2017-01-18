@@ -61,7 +61,7 @@ span {
 	opacity: 0.65;
 }
 
-#c:hover {
+#c:hover, #c:active {
 	background-color: #FF7373;
 	opacity: 0.65;
 	cursor: pointer;
@@ -75,7 +75,7 @@ span {
 	opacity: 0.65;
 }
 
-#d:hover {
+#d:hover, #d:active {
 	background-color: #FFBD82;
 	opacity: 0.65;
 	cursor: pointer;
@@ -89,7 +89,7 @@ span {
 	opacity: 0.65;
 }
 
-#e:hover {
+#e:hover, #e:active {
 	background-color: #FFD34F;
 	opacity: 0.65;
 	cursor: pointer;
@@ -103,7 +103,7 @@ span {
 	opacity: 0.65;
 }
 
-#f:hover {
+#f:hover, #f:active {
 	background-color: #93BF96;
 	opacity: 0.65;
 	cursor: pointer;
@@ -117,7 +117,7 @@ span {
 	opacity: 0.65;
 }
 
-#g:hover {
+#g:hover, #g:active {
 	background-color: #8282FF;
 	opacity: 0.65;
 	cursor: pointer;
@@ -131,7 +131,7 @@ span {
 	opacity: 0.65;
 }
 
-#a:hover {
+#a:hover, #a:active {
 	background-color: #B89AFE;
 	opacity: 0.65;
 	cursor: pointer;
@@ -145,7 +145,7 @@ span {
 	opacity: 0.65;
 }
 
-#b:hover {
+#b:hover, #b:active {
 	background-color: #DD75DD;
 	opacity: 0.65;
 	cursor: pointer;
