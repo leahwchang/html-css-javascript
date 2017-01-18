@@ -9,43 +9,35 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
 	background-color: #ABABAB;
+	text-align: center;
 }
 
 #wrapper {
-	border: 1px solid red;
 	margin: auto;
 	position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   height: 250px;
 }
 
-h1 {
-	margin: auto;
+/* page title */
+span {
 	font-family: 'Molle', cursive;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
 }
 
 #gradient {
-	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF5353), color-stop(0.15, #FF9C42), color-stop(0.3, #F9BB00), color-stop(0.45, #6CA870), color-stop(0.6, #5B5BFF), color-stop(0.75, #A27AFE), color-stop(0.9, #BC2EBC), color-stop(1, #FF5353));
+	background-image: gradient(linear, left top, right top, color-stop(0, #FF5353), color-stop(0.15, #FF9C42), color-stop(0.3, #F9BB00), color-stop(0.45, #6CA870), color-stop(0.6, #5B5BFF), color-stop(0.75, #A27AFE), color-stop(0.9, #BC2EBC), color-stop(1, #FF5353));
+	color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-	/*color: red; */
-	/* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /*color: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
-  /* For Opera 11.1 to 12.0 */
-  /*color: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
-  /* For Fx 3.6 to 15 */
-  /*color: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
-  /* Standard syntax */
-  /*color: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+	background-clip: text;
 }
 
+/* music box */
 #music_box {
 	height: 120px;
 	width: 672px;
-	border: 1px solid red;
 	margin: auto;
 	margin-top: 50px;
 }
@@ -59,41 +51,79 @@ h1 {
 	width: 80px;
 }
 
+/* notes */
+
+/* c: red */
 #c {
 	border: 3px solid #FF7373;
 	border-radius: 3px;
 	background-color: #FFC8C8;
-	opacity: 0.7;
+	opacity: 0.65;
 }
 
+#c:hover {
+	background-color: #FF7373;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* d: orange */
 #d {
 	border: 3px solid #FFBD82;
 	border-radius: 3px;
 	background-color: #FFE2C8;
-	opacity: 0.7;
+	opacity: 0.65;
 }
 
+#d:hover {
+	background-color: #FFBD82;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* e: yellow */
 #e {
 	border: 3px solid #FFD34F;
 	border-radius: 3px;
 	background-color: #FFF1C6;
-	opacity: 0.7;
+	opacity: 0.65;
 }
 
+#e:hover {
+	background-color: #FFD34F;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* f: green */
 #f {
 	border: 3px solid #93BF96;
 	border-radius: 3px;
 	background-color: #DBEADC;
-	opacity: 0.7;
+	opacity: 0.65;
 }
 
+#f:hover {
+	background-color: #93BF96;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* g: blue */
 #g {
 	border: 3px solid #8282FF;
 	border-radius: 3px;
 	background-color: #C6C6FF;
-	opacity: 0.7;
+	opacity: 0.65;
 }
 
+#g:hover {
+	background-color: #8282FF;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* a: indigo */
 #a {
 	border: 3px solid #B89AFE;
 	border-radius: 3px;
@@ -101,11 +131,24 @@ h1 {
 	opacity: 0.65;
 }
 
+#a:hover {
+	background-color: #B89AFE;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+/* b: violet */
 #b {
 	border: 3px solid #DD75DD;
 	border-radius: 3px;
 	background-color: #F0C4F0;
 	opacity: 0.65;
+}
+
+#b:hover {
+	background-color: #DD75DD;
+	opacity: 0.65;
+	cursor: pointer;
 }
 
 
