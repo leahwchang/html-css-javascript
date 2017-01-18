@@ -1,0 +1,112 @@
+body {
+	background-image: linear-gradient(to right, black 80%, white 100%), url("images/piano.jpg");
+  background-blend-mode: screen;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-color: #ABABAB;
+}
+
+#wrapper {
+	border: 1px solid red;
+	margin: auto;
+	position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 250px;
+}
+
+h1 {
+	margin: auto;
+	font-family: 'Molle', cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+#gradient {
+	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	/*color: red; */
+	/* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /*color: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
+  /* For Opera 11.1 to 12.0 */
+  /*color: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
+  /* For Fx 3.6 to 15 */
+  /*color: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);*/
+  /* Standard syntax */
+  /*color: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+}
+
+#music_box {
+	height: 120px;
+	width: 672px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.box {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+
+#c {
+	border: 3px solid #FF7373;
+	border-radius: 3px;
+	background-color: #FFC8C8;
+	opacity: 0.7;
+}
+
+#d {
+	border: 3px solid #FFBD82;
+	border-radius: 3px;
+	background-color: #FFE2C8;
+	opacity: 0.7;
+}
+
+#e {
+	border: 3px solid #FFD34F;
+	border-radius: 3px;
+	background-color: #FFF1C6;
+	opacity: 0.7;
+}
+
+#f {
+	border: 3px solid #93BF96;
+	border-radius: 3px;
+	background-color: #DBEADC;
+	opacity: 0.7;
+}
+
+#g {
+	border: 3px solid #8282FF;
+	border-radius: 3px;
+	background-color: #C6C6FF;
+	opacity: 0.7;
+}
+
+#a {
+	border: 3px solid #B89AFE;
+	border-radius: 3px;
+	background-color: #DDCEFF;
+	opacity: 0.65;
+}
+
+#b {
+	border: 3px solid #DD75DD;
+	border-radius: 3px;
+	background-color: #F0C4F0;
+	opacity: 0.65;
+}
+
+
+
