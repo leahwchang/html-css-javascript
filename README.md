@@ -11,6 +11,7 @@
 01.08.17 - comic time (add own graphics + own stories)    
 01.09.17 - night and day    
 01.10.17 - music boxes   
+01.11.17 - digital clock  
 
   
 (*) things to change and work on
