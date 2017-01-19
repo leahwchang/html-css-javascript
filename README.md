@@ -9,9 +9,11 @@
 01.06.17 - modern mondrian (make it responsive + change colors on click)   
 01.07.17 - popup game (add own graphics)  
 01.08.17 - comic time (add own graphics + own stories)    
-01.09.17 - night and day    
+01.09.17 - night and day (add realistic backgrounds/styling)    
 01.10.17 - music boxes   
-01.11.17 - digital clock  
+01.11.17 - digital clock 
+01.12.17 - two.js (add animation)    
+
 
   
 (*) things to change and work on
