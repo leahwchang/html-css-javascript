@@ -6,7 +6,11 @@ $(document).ready(function() {
 		var minutes = clock.getMinutes();
 		var seconds = clock.getSeconds();
 
-
+		if (hours === 0) {
+			hours = 12;
+		} else if (hours < 10) {
+			hours = "0" + hours;
+		}
 
 		if (minutes < 10) {
 			minutes = "0" + minutes;
@@ -17,13 +21,10 @@ $(document).ready(function() {
 		}
 
 		var meridiem = "AM";
+
 		if (hours > 12) {
 			hours = hours - 12;
 			meridiem = "PM";
-		}
-
-		if (hours === 0) {
-			hours = 12;
 		}
 
 		var currentTime = document.getElementById("current_time");
