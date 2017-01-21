@@ -13,7 +13,8 @@
 01.10.17 - music boxes   
 01.11.17 - digital clock 
 01.12.17 - two.js (add animation)    
-01.13.17 - tic tac toe
+01.13.17 - tic tac toe (add js logic)
+01.14.17 - rock, paper, scissors (add html and styling)
 
 
   
