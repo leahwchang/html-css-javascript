@@ -15,7 +15,7 @@
 01.12.17 - two.js (add animation)    
 01.13.17 - tic tac toe (add js logic)
 01.14.17 - rock, paper, scissors (add html and styling)
-
+01.15.17 - dragon slayer (add html and styling)  
 
   
 (*) things to change and work on
