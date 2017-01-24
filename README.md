@@ -1,22 +1,22 @@
-# html-css-javascript
-100 days of code: create small scale html, css, and javascript projects
+# html-css-javascript  
+100 Days of Code: create and improve on small scale html, css and javascript projects  
 
-01.01.17 - css buttons (continuously adding buttons to this list)  
-01.02.17 - forms  
-01.03.17 - date picker (add styling)  
-01.04.17 - javascript input  
-01.05.17 - canvas (add styling + more shapes)  
-01.06.17 - modern mondrian (make it responsive + change colors on click)   
-01.07.17 - popup game (add own graphics)  
-01.08.17 - comic time (add own graphics + own stories)    
-01.09.17 - night and day (add realistic backgrounds/styling)    
-01.10.17 - music boxes   
-01.11.17 - digital clock 
-01.12.17 - two.js (add animation)    
-01.13.17 - tic tac toe (add js logic)
-01.14.17 - rock, paper, scissors (add html and styling)
-01.15.17 - dragon slayer (add html and styling)  
-01.16.17 - magic forest (add html and styling)  
+01. css buttons (*) continuously adding buttons to this list   
+02. forms  
+03. date picker (*) add styling   
+04. javascript input  
+05. canvas (*) add styling + more shapes    
+06. modern mondrian (*) responsive        
+07. popup game (*) add own graphics    
+08. comic time (*) add own graphics        
+09. night and day (*) add background/styling      
+10. music boxes    
+11. digital clock  
+12. two.js (*) add animation      
+13. tic tac toe (*) add js logic   
+14. rock, paper, scissors (*) add styling  
+15. dragon slayer (*) add styling    
+16. magic forest (*) add styling    
 
   
 (*) things to change and work on
